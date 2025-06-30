@@ -13,10 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Get version from package.json
-        id: get_version
-        run: echo "VERSION=$(node -p \"require('./package.json').version\")" >> $GITHUB_ENV
-        shell: bash
+      - name: Set VERSION
+        run: echo "VERSION=1.16.0" >> $GITHUB_ENV
 
       - name: Create Draft Release
         uses: softprops/action-gh-release@v1
