@@ -20,7 +20,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: v${{ env.VERSION }}
-          release_name: 'Draft Release v${{ env.VERSION }}'
+          name: 'Draft Release v${{ env.VERSION }}'
           draft: true
           body: |
             This is a draft release for version v${{ env.VERSION }}.
