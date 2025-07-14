@@ -10,4 +10,5 @@ New Release 1.5.0
 New Release 1.11.0
 
 New Release 1.15.0
-New Release 1.16.2
+New Release 1.16.0
+New Release 1.17.0 production
